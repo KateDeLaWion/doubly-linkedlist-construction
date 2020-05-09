@@ -16,8 +16,8 @@ public class DoublyLinkedList {
 
 
     //constructor of DoublyLinkedList
-    private ListNode head;
-    private ListNode tail;
+    private ListNode head; // this head only has the head, not the entire Doubly LinkedList, unlike Singly LinkedList
+    private ListNode tail; // this tail only has the tail, not the entire Doubly LinkedList
     private int length;
     public DoublyLinkedList() {
         this.head = null;

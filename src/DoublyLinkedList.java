@@ -2,8 +2,7 @@ import java.util.NoSuchElementException;
 
 public class DoublyLinkedList {
 
-
-    // class of ListNode separate.
+    // separate class of ListNode
     private class ListNode {
         private int data;
         private ListNode next;
@@ -16,8 +15,8 @@ public class DoublyLinkedList {
 
 
     //constructor of DoublyLinkedList
-    private ListNode head; // this head only has the head, not the entire Doubly LinkedList, unlike Singly LinkedList
-    private ListNode tail; // this tail only has the tail, not the entire Doubly LinkedList
+    private ListNode head; // this head has the head, return head, return the entire list
+    private ListNode tail;
     private int length;
     public DoublyLinkedList() {
         this.head = null;
